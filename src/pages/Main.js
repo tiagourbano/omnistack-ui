@@ -63,9 +63,8 @@ export default function Main({ match }) {
                     <div className="name">
                       <strong>{user.name}</strong>
                     </div>
-                    <div className="bio">
-                    {user.bio}
-                    </div>
+                    <div className="bio">{user.bio}</div>
+                    <div className="bio">{user.user}</div>
                   </div>
                   <div className="buttons">
                     <button type="button" onClick={() => handleDislike(user._id)}>
